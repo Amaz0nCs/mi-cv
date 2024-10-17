@@ -78,7 +78,7 @@ ul li {
 
 .skills .category {
     width: 45%;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reducido para disminuir el espacio entre categorías */
 }
 
 /* Trabajo y experiencia */
