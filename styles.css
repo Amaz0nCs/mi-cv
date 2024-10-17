@@ -71,4 +71,32 @@ ul li {
 
 /* Habilidades */
 .skills .skill-categories {
-    display
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills .category {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+/* Trabajo y experiencia */
+.job {
+    margin-bottom: 15px;
+}
+
+.job ul {
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
